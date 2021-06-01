@@ -20,3 +20,4 @@
       - vagrant
       - yamllint
       - tilix
+      - VirtualBox-6.1
