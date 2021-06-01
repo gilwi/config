@@ -1,0 +1,9 @@
+---
+- name: Add Virtualbox repo
+  yum_repository:
+    name: vbox
+    description: Fedora virtualbox
+    baseurl: http://download.virtualbox.org/virtualbox/rpm/fedora/$releasever/$basearch
+    gpgcheck: 1
+    repo_gpgcheck: 1
+    gpgkey: https://www.virtualbox.org/download/oracle_vbox.asc

@@ -1,0 +1,10 @@
+---
+- name: Install some tools
+  dnf:
+    name: "{{ item }}"
+    state: latest
+  loop:
+    - vagrant
+    - yamllint
+    - tilix
+    - VirtualBox-6.1
