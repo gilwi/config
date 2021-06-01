@@ -5,8 +5,8 @@
 
   - name: Add Virtualbox repo
     yum_repository:
-      name: Fedora $releasever - $basearch - VirtualBox
-      description: Vbox repo
+      name: vbox
+      description: Fedora virtualbox
       baseurl: http://download.virtualbox.org/virtualbox/rpm/fedora/$releasever/$basearch
       gpgcheck: 1
       repo_gpgcheck: 1
