@@ -19,3 +19,4 @@
     loop:
       - vagrant
       - yamllint
+      - tilix
