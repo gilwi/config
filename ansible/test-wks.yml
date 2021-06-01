@@ -1,0 +1,10 @@
+- hosts: localhost
+  become: true
+  tasks:
+  - name: Install most used tools
+    yum:
+      name: "{{ item }}"
+      state: latest
+    loop:
+       - vagrant
+       - yamllint
