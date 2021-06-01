@@ -17,5 +17,5 @@
       name: "{{ item }}"
       state: latest
     loop:
-       - vagrant
-       - yamllint
+      - vagrant
+      - yamllint
