@@ -1,5 +1,6 @@
 ---
 - name: Install VSCode extensions
+  become: false
   ansible.builtin.command: code --install-extension {{ item }}
   loop:
     - golang.go
