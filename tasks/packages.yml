@@ -4,8 +4,9 @@
     name: "{{ item }}"
     state: latest
   loop:
-    - vagrant
-    - yamllint
-    - tilix
-    - VirtualBox-6.1
     - code
+    - flameshot
+    - tilix
+    - vagrant
+    - VirtualBox-6.1
+    - yamllint 

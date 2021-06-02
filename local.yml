@@ -9,3 +9,4 @@
   tasks:
     - include: tasks/repos.yml
     - include: tasks/packages.yml
+    - include: tasks/extensions.yml
