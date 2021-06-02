@@ -6,6 +6,7 @@
   loop:
     - code
     - flameshot
+    - pre-commit
     - tilix
     - vagrant
     - VirtualBox-6.1
