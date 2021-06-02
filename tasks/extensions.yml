@@ -1,0 +1,9 @@
+---
+- name: Install VSCode extensions
+  ansible.builtin.command: code --install-extension {{ item }}
+  loop:
+    - golang.go
+    - ms-azuretools.vscode-docker
+    - ms-python.python
+    - ms-python.vscode-pylance
+    - redhat.vscode-yaml
